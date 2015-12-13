@@ -3,11 +3,6 @@ fs.readdir('.',function(err,files){
     if (err) throw err;
     var fileList = [];
     files.filter(function(file){
-        //console.log(file);
-        //console.log(fs.statSync(file).isFile());
-        //console.log(/.*¥.txt$/.test(file));
-        //console.log(/.*.txt$/.test('a.txt'));
-
         return fs.statSync(file).isFile() && /.*.txt$/.test(file);
     }).forEach(function(file){
         fileList.push(file);
