@@ -1,0 +1,16 @@
+{
+  "name": "cron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cron.js",
+  "dependencies": {
+    "cron": "^1.1.0",
+    "moment-timezone": "^0.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
